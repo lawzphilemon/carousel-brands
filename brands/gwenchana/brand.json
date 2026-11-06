@@ -85,7 +85,7 @@
     "match_by": "code",
     "columns": {
       "code": "Code", "topic": "Topik", "status": "Status",
-      "scheduled_at": "Terjadwal", "account": "Akun",
+      "scheduled_at": "Terjadwal (WIB)", "account": "Akun",
       "repliz_id": "Repliz ID", "folder": "Folder"
     },
     "status_values": { "scheduled": "Scheduled (draft)", "scheduled_live": "Scheduled (live)" }
