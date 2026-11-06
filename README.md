@@ -7,6 +7,11 @@ Currently included:
 | Brand | Folder |
 |---|---|
 | Truemission | `brands/truemission/` |
+| Gwenchana Digital | `brands/gwenchana/` |
+
+Both profiles pass the plugin's own check (`node engine/cli.mjs lint --self-check --brand <path>/brand.json`).
+
+The Gwenchana profile follows the agency's social brand guideline (palette, Montserrat, voice, "no prices" and "claims need sources" rules). Its pillars and call-to-action line are a working draft, so edit them before relying on them.
 
 ## Use
 
@@ -26,5 +31,7 @@ cd carousel
 
 ## Licenses
 
-- `brands/*/fonts/OpenSans-Variable.ttf`: Open Sans, SIL Open Font License 1.1 (see `brands/*/fonts/OFL.txt`).
+- `brands/truemission/fonts/OpenSans-Variable.ttf`: Open Sans, SIL Open Font License 1.1.
+- `brands/gwenchana/fonts/Montserrat-Variable.ttf`: Montserrat, SIL Open Font License 1.1.
+- The license text sits next to each font as `OFL.txt`.
 - Logos and brand rules: all rights reserved by the brand owner. They are published for testing the plugin and are not licensed for reuse.

@@ -1,0 +1,93 @@
+{
+  "slug": "gwenchana",
+  "name": "Gwenchana Digital",
+  "handle": "@gwenchana.agency",
+  "language": "id",
+  "timezone": "Asia/Jakarta",
+  "canvas": { "width": 1080, "height": 1350 },
+  "palette": {
+    "background_dark": "#1D1D1D",
+    "background_light": "#FFFFFF",
+    "accent": "#FDDE5A",
+    "text_on_dark": "#FFFFFF",
+    "text_on_light": "#1D1D1D",
+    "muted": "#9A9A9A",
+    "card": "#2B2B2B",
+    "forbidden": ["#007BFF"]
+  },
+  "contrast_pairs": [
+    { "fg": "#FDDE5A", "bg": "#1D1D1D", "min": 4.5 },
+    { "fg": "#FFFFFF", "bg": "#1D1D1D", "min": 4.5 },
+    { "fg": "#1D1D1D", "bg": "#FDDE5A", "min": 4.5 },
+    { "fg": "#9A9A9A", "bg": "#1D1D1D", "min": 4.5 },
+    { "fg": "#1D1D1D", "bg": "#FFFFFF", "min": 4.5 }
+  ],
+  "fonts": {
+    "family": "Montserrat",
+    "file": "fonts/Montserrat-Variable.ttf",
+    "weights": { "hook": 800, "title": 700, "body": 500, "caption": 400 },
+    "sizes_px": { "hook": [96, 120], "title": [64, 80], "body": [38, 44], "caption": [26, 30] },
+    "max_weights_per_slide": 2
+  },
+  "logos": {
+    "on_dark": "logos/logo-color.png",
+    "on_light": "logos/logo-dark.png",
+    "on_accent": "logos/logo-dark.png",
+    "width_px": { "cover": 360, "content": 200, "cta": 360 },
+    "min_width_px": 160
+  },
+  "layout": { "margin_px": 80, "max_body_words": 35, "max_headline_words": 9, "slides": [5, 10] },
+  "voice": {
+    "pov": "kami",
+    "address": { "instagram": "kamu" },
+    "tone": "semi-formal dan konsultatif, jelas tanpa jargon berlebihan; sosmed boleh lebih punchy dan visual; bicara seperti konsultan strategi yang percaya diri, bukan hype merchant",
+    "use": ["strategi", "terukur", "hasil nyata", "dari data", "satu tim", "clarity"],
+    "avoid": ["Anda", "saya", "viral dijamin", "pasti naik", "terbaik se-Indonesia", "murah", "diskon", "100% berhasil", "hype", "growth-hack", "secepatnya"],
+    "acronyms": ["ROAS", "CTR", "ROI", "SEO", "GEO", "KOL", "CRM"],
+    "emoji_max": { "instagram": 1 },
+    "exclamation": false,
+    "all_caps_emphasis": false,
+    "caption_formula": ["hook", "body", "proof", "cta"]
+  },
+  "hard_rules": {
+    "no_prices": true,
+    "claims_need_source": true,
+    "no_client_names": true,
+    "client_name_blocklist": [],
+    "headline_case": "sentence",
+    "headline_ends_with_period": false
+  },
+  "cta": {
+    "standard": [
+      { "pillar": "edukasi", "line": "Diskusi dengan tim Gwenchana Digital. Kami balas dalam satu hari kerja." },
+      { "pillar": "kabar", "line": "Diskusi dengan tim Gwenchana Digital. Kami balas dalam satu hari kerja." },
+      { "pillar": "praktik", "line": "Diskusi dengan tim Gwenchana Digital. Kami balas dalam satu hari kerja." }
+    ],
+    "button": { "label_style": "kata kerja di depan, 2-3 kata", "bg": "#E9D26F", "fg": "#1D1D1D" },
+    "contact": null
+  },
+  "pillars": [
+    { "id": "edukasi", "label": "Edukasi iklan, SEO, dan branding", "share": 0.4 },
+    { "id": "kabar", "label": "#KabarSosmed: kabar platform dari sumber resmi", "share": 0.4 },
+    { "id": "praktik", "label": "Praktik umum dari social listening", "share": 0.2 }
+  ],
+  "knowledge": {
+    "hook": ["wtf-hook-999:wtf-hook-999"],
+    "script": ["hookreel:creator-os"],
+    "humanizer": ["hookreel:humanizer-id"]
+  },
+  "platforms": { "instagram": { "max_slides": 20 } },
+  "tracking": {
+    "sheet_id": "REPLACE_WITH_YOUR_SHEET_ID",
+    "tab": "Carousel",
+    "mode": "append",
+    "match_column": "Code",
+    "match_by": "code",
+    "columns": {
+      "code": "Code", "topic": "Topik", "status": "Status",
+      "scheduled_at": "Terjadwal", "account": "Akun",
+      "repliz_id": "Repliz ID", "folder": "Folder"
+    },
+    "status_values": { "scheduled": "Scheduled (draft)", "scheduled_live": "Scheduled (live)" }
+  }
+}
