@@ -1,0 +1,97 @@
+{
+  "slug": "truemission",
+  "name": "Truemission",
+  "handle": "@truemission.id",
+  "language": "id",
+  "timezone": "Asia/Jakarta",
+  "canvas": { "width": 1080, "height": 1350 },
+  "palette": {
+    "background_dark": "#AE0001",
+    "background_light": "#F9F0EC",
+    "accent": "#F9F0EC",
+    "text_on_dark": "#FFFFFF",
+    "text_on_light": "#000000",
+    "muted": "#F9F0EC",
+    "card": "#FFFFFF",
+    "forbidden": []
+  },
+  "contrast_pairs": [
+    { "fg": "#FFFFFF", "bg": "#AE0001", "min": 4.5 },
+    { "fg": "#F9F0EC", "bg": "#AE0001", "min": 4.5 },
+    { "fg": "#AE0001", "bg": "#F9F0EC", "min": 4.5 },
+    { "fg": "#000000", "bg": "#F9F0EC", "min": 4.5 },
+    { "fg": "#000000", "bg": "#FFFFFF", "min": 4.5 }
+  ],
+  "fonts": {
+    "family": "Open Sans",
+    "file": "fonts/OpenSans-Variable.ttf",
+    "weights": { "hook": 800, "title": 800, "body": 400, "caption": 400 },
+    "sizes_px": { "hook": [96, 120], "title": [64, 80], "body": [38, 44], "caption": [26, 30] },
+    "max_weights_per_slide": 2
+  },
+  "logos": {
+    "on_dark": "logos/logo-white.png",
+    "on_light": "logos/logo-color.png",
+    "on_accent": "logos/logo-color.png",
+    "width_px": { "cover": 240, "content": 160, "cta": 480 },
+    "min_width_px": 120
+  },
+  "layout": { "margin_px": 80, "max_body_words": 35, "max_headline_words": 9, "slides": [5, 10] },
+  "voice": {
+    "pov": "kami",
+    "address": { "instagram": "kamu" },
+    "tone": "hangat, menenangkan, informatif, tidak menakut-nakuti, percaya diri; semi-formal santai, sapa 'Sahabat', cerita dulu baru produk",
+    "use": ["proteksi", "mendampingi", "siap", "kontribusi"],
+    "avoid": ["Anda", "dijamin", "pasti cair", "termurah", "100% aman", "investasi"],
+    "acronyms": ["BPJS", "IGD", "RS", "ICU", "MK"],
+    "emoji_max": { "instagram": 2 },
+    "exclamation": false,
+    "all_caps_emphasis": false,
+    "caption_formula": ["hook", "body", "proof", "cta"]
+  },
+  "hard_rules": {
+    "no_prices": true,
+    "claims_need_source": true,
+    "no_client_names": true,
+    "client_name_blocklist": [],
+    "headline_case": "sentence",
+    "headline_ends_with_period": false
+  },
+  "cta": {
+    "standard": [
+      { "pillar": "edukasi", "line": "Konsultasi gratis dengan tim Truemission via WhatsApp." },
+      { "pillar": "kisah", "line": "Konsultasi gratis dengan tim Truemission via WhatsApp." },
+      { "pillar": "klaim", "line": "Konsultasi gratis dengan tim Truemission via WhatsApp." },
+      { "pillar": "syariah", "line": "Konsultasi gratis dengan tim Truemission via WhatsApp." },
+      { "pillar": "keagenan", "line": "Konsultasi gratis dengan tim Truemission via WhatsApp." }
+    ],
+    "button": { "label_style": "kata kerja di depan, 2-4 kata", "bg": "#AE0001", "fg": "#FFFFFF" },
+    "contact": null
+  },
+  "pillars": [
+    { "id": "edukasi", "label": "Edukasi asuransi", "share": 0.2 },
+    { "id": "kisah", "label": "Kisah Nasabah", "share": 0.2 },
+    { "id": "klaim", "label": "Panduan dan bantuan klaim", "share": 0.2 },
+    { "id": "syariah", "label": "Syariah Corner", "share": 0.2 },
+    { "id": "keagenan", "label": "Keagenan dan Kisah Sukses", "share": 0.2 }
+  ],
+  "knowledge": {
+    "hook": ["wtf-hook-999:wtf-hook-999"],
+    "script": ["hookreel:creator-os"],
+    "humanizer": ["hookreel:humanizer-id"]
+  },
+  "platforms": { "instagram": { "max_slides": 20 } },
+  "tracking": {
+    "sheet_id": "REPLACE_WITH_YOUR_SHEET_ID",
+    "tab": "Carousel",
+    "mode": "append",
+    "match_column": "Code",
+    "match_by": "code",
+    "columns": {
+      "code": "Code", "topic": "Topik", "status": "Status",
+      "scheduled_at": "Terjadwal", "account": "Akun",
+      "repliz_id": "Repliz ID", "folder": "Folder"
+    },
+    "status_values": { "scheduled": "Scheduled (draft)", "scheduled_live": "Scheduled (live)" }
+  }
+}
