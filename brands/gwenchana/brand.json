@@ -13,6 +13,7 @@
     "text_on_light": "#1D1D1D",
     "muted": "#9A9A9A",
     "card": "#2B2B2B",
+    "cta_bg": "#E9D26F",
     "forbidden": ["#007BFF"]
   },
   "contrast_pairs": [
