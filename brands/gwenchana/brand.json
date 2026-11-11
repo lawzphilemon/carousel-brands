@@ -59,9 +59,9 @@
   },
   "cta": {
     "standard": [
-      { "pillar": "edukasi", "line": "Diskusi dengan tim Gwenchana Digital. Kami balas dalam satu hari kerja." },
-      { "pillar": "kabar", "line": "Diskusi dengan tim Gwenchana Digital. Kami balas dalam satu hari kerja." },
-      { "pillar": "praktik", "line": "Diskusi dengan tim Gwenchana Digital. Kami balas dalam satu hari kerja." }
+      { "pillar": "edukasi", "line": "Diskusi dengan tim Gwenchana Digital." },
+      { "pillar": "kabar", "line": "Diskusi dengan tim Gwenchana Digital." },
+      { "pillar": "praktik", "line": "Diskusi dengan tim Gwenchana Digital." }
     ],
     "button": { "label_style": "kata kerja di depan, 2-3 kata", "bg": "#E9D26F", "fg": "#1D1D1D" },
     "contact": null
